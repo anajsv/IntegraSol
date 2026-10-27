@@ -72,7 +72,6 @@ def calcular_centro_massa(momentos, massa):
 
 
 def integrar_esfera(raio, densidade, resolucao):
-    """Retorna arrays em ordem [i,j,k]; nenhuma fórmula analítica é usada."""
     inicio = perf_counter()
     parametros = validar_parametros(raio, densidade, resolucao)
     grade = gerar_discretizacao(parametros["raio"], parametros["resolucao"])
@@ -98,7 +97,6 @@ def integrar_esfera(raio, densidade, resolucao):
 
 
 def inspecionar_celula(resultado, i, j, k):
-    """Consulta uma célula preservada; não executa uma nova integração."""
     n = resultado["parametros"]["resolucao"]
     for indice in (i, j, k):
         if (isinstance(indice, (bool, np.bool_))

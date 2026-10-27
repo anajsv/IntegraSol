@@ -19,8 +19,6 @@ def obter_limites_esfera(raio):
 
 
 def pertence_esfera(pontos, raio):
-    """Aceita arrays (..., 3); a fronteira pertence à região."""
     raio = validar_raio(raio)
     pontos = np.asarray(pontos, dtype=np.float64)
-    # Normalizar evita elevar raios muito grandes ao quadrado.
     return np.sum((pontos / raio) ** 2, axis=-1) <= 1.0
