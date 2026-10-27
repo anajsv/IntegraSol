@@ -95,7 +95,7 @@ O ambiente verificado foi Python 3.12/Linux. A instalação nas duas máquinas d
 
 ## Autores e licença
 
-**Ana Julia Vieira Santiago**  
+**Ana Julia Santiago Vieira**  
 **Cauã Henrique Feitosa de Souza**
 
 Projeto acadêmico de Cálculo III do curso de Ciência da Computação da Fundação Universidade Federal de Rondônia.
