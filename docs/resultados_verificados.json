@@ -1,0 +1,77 @@
+{
+  "ambiente": {
+    "python": "3.12.14",
+    "sistema": "Linux"
+  },
+  "parametros": {
+    "raio": 2.0,
+    "densidade": 1.0,
+    "resolucao": 40
+  },
+  "grandezas": {
+    "volume": 33.552000000000014,
+    "massa": 33.552000000000014,
+    "momentos": [
+      3.552713678800501e-15,
+      3.247402347028583e-15,
+      3.547238457829449e-15
+    ],
+    "centro_massa": [
+      1.0588679300192237e-16,
+      9.678714672831967e-17,
+      1.0572360687379135e-16
+    ]
+  },
+  "estatisticas": {
+    "candidatos": 64000,
+    "aceitos": 33552,
+    "tempo_execucao": 0.008888022999940404
+  },
+  "validacao": {
+    "volume_referencia": 33.510321638291124,
+    "massa_referencia": 33.510321638291124,
+    "centro_referencia": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "erro_volume_absoluto": 0.04167836170888961,
+    "erro_volume_relativo": 0.0012437469911140793,
+    "erro_massa_absoluto": 0.04167836170888961,
+    "erro_massa_relativo": 0.0012437469911140793,
+    "erro_centro_absoluto": 1.782056277294441e-16,
+    "erro_centro_normalizado": 8.910281386472205e-17
+  },
+  "refinamento": [
+    {
+      "n": 10,
+      "candidatos": 1000,
+      "aceitos": 552,
+      "volume": 35.32800000000002,
+      "massa": 35.32800000000002,
+      "referencia_volume": 33.510321638291124,
+      "erro_absoluto": 1.817678361708893,
+      "erro_percentual": 5.4242343040715335
+    },
+    {
+      "n": 20,
+      "candidatos": 8000,
+      "aceitos": 4224,
+      "volume": 33.79200000000001,
+      "massa": 33.79200000000001,
+      "referencia_volume": 33.510321638291124,
+      "erro_absoluto": 0.2816783617088845,
+      "erro_percentual": 0.8405719430249217
+    },
+    {
+      "n": 40,
+      "candidatos": 64000,
+      "aceitos": 33552,
+      "volume": 33.552000000000014,
+      "massa": 33.552000000000014,
+      "referencia_volume": 33.510321638291124,
+      "erro_absoluto": 0.04167836170888961,
+      "erro_percentual": 0.12437469911140793
+    }
+  ]
+}
